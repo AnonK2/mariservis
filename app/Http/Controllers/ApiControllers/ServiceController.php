@@ -163,7 +163,7 @@ class ServiceController extends Controller
      */
     public function destroy($id)
     {
-        // find, if find find fails it will throws -> "FatalThrowableError"
+        // find, if find fails it will throws -> "FatalThrowableError"
         // findOrFail, if find fails it will throws -> "NotFoundHttpException"
         $service = Service::findOrFail($id);
         // delete row from service_service_type

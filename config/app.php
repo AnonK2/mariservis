@@ -50,7 +50,7 @@ return [
     | your application so that it is used when running Artisan tasks.
     |
     */
-
+    // REMEMBER: CAN BE CHANGE TO "HTTPS"
     'url' => env('APP_URL', 'http://localhost'),
 
     /*
